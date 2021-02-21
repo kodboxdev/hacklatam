@@ -19,6 +19,8 @@ import send from "../../icons/send.png";
 import formula from "../../icons/integral.jpg";
 import star from "../../icons/star.png";
 
+import { Etiquetas } from "./Etiquetas/index";
+import { Preguntas } from "./Preguntas/index";
 
 
 const Index = () => {
@@ -100,6 +102,8 @@ const Index = () => {
               </div>
             </div>
           </div>
+          <Etiquetas />
+          <Preguntas />
 
     </>
   );

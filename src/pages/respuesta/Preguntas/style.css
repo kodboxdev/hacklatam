@@ -1,0 +1,46 @@
+
+.tarjeta-preguntas{
+    background-color: white;
+    width: 25vw;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 3em;
+    padding: 2em;
+
+}
+
+.pregunta-pre{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-pre{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+
+}
+
+.publ-eti{
+font-size: 15px;
+color: rgb(143, 143, 143);
+font-weight: 200;
+}
+.repu-eti{
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+    font-weight: 200;
+    }
+.icono-eti{
+    border-radius: 3em;
+    margin: 0em 1em;
+    height: 40px;
+    width: 40px;
+}
+.ico{
+    margin-top: 1em;
+}
+.pregunta-te{
+    text-indent: .5cm;
+    line-height: 12px;
+}

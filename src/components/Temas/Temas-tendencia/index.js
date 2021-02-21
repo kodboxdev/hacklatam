@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import fire from "../../../icons/fire.png";
 import puntor from "../../../icons/puntorojo.png";
 import puntoa from "../../../icons/puntoazul.png";
@@ -11,7 +11,9 @@ const Tendencia = () => {
     <>
       <div className="tarjeta">
         <div className="titulo">
+          <Link  className="titulow" to="/explorar">
           <p>Temas tendencia</p>
+          </Link>
           <img src={fire} alt="logo" className="logo" />
         </div>
         <div className="tem">

@@ -1,0 +1,45 @@
+.tarjeta-eti{
+    background-color: white;
+    width: 25vw;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 3em;
+    padding: 2em;
+}
+
+.titulo-eti{
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
+}
+.eti-eti{
+    text-align: left;
+    background-color: rgb(201, 201, 201);
+    border-radius: 2em;
+    padding: .5em;
+    width: 10vw;
+}
+.etiqu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon-eti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0em 1em;
+}
+.icono-eti{
+    width: 5vw;
+}
+.green{
+    color: #2ECC71;
+    font-weight: 600;
+}
+.orange{
+    color: #E67E22;
+    font-weight: 600;
+}
+.red{
+    color: #E74C3C;
+}
