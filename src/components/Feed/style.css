@@ -1,0 +1,153 @@
+.container {
+  margin-top: 5em;
+  margin-left: 4em;
+}
+.pregunta-user {
+  display: block;
+  background-color: white;
+  border-radius: 2em;
+  height: 120px;
+  margin-left: 5em;
+  width: 60vw;
+}
+.user-pregunta-icono {
+  border-radius: 5em;
+  width: 8vw;
+  position: absolute;
+  top: 14vw;
+  left: 7vw;
+}
+
+.input-user {
+  margin-top: 1.5em;
+  color: rgb(27, 27, 27);
+  width: 50vw;
+  margin-left: 1em;
+  border-style: none;
+}
+.icono-files {
+  height: 3vh;
+}
+.files {
+  position: absolute;
+  top: 20vw;
+  left: 16vw;
+}
+.feed {
+  flex-direction: column;
+  color: rgb(85, 85, 85);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+.pregunta {
+  background-color: white;
+  position: absolute;
+  width: 854px;
+  height: 474px;
+  left: 144px;
+  top: 424px;
+  border-radius: 1em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.send-icono{
+    padding-top: 2em;
+    width: 3vw;
+}
+.user-pregunta-foto {
+  border-radius: 8em;
+  position: absolute;
+  width: 80px;
+  left: -30px;
+  top: 60px;
+}
+
+.text-publicado {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 14px;
+}
+
+.text-pregunta {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #555555;
+}
+.text-fecha{
+    position: absolute;
+    left: 650px;
+    top: 15px;
+    font-size: 20px;
+    color: #707070;
+    font-weight: 300;
+}
+.text-informa {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+}
+
+.texto{
+    padding-top: 2em;
+    padding-left: 3em;
+}
+
+.formula{
+    position: absolute;
+    height: 10vh;
+    left: 450px;
+    top: 100px;
+}
+
+.pin{
+    position: absolute;
+    height: 5vh;
+    left: 780px;
+    top: 15px;
+}
+
+.respuesta{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 1em;
+}
+.respuestas{
+    margin-top: 7em;
+    margin-left: 1em;
+}
+.user-respuesta-foto{
+    border-radius: 5em;
+    height: 8vh;
+    margin-top: 1em;
+}
+.text-repuesta{
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+    font-weight: 300;
+}
+
+.link{
+    margin-top: .5em;
+    color: coral;
+    font-weight: 900;
+}
+
+.titulo-repuesta{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.texto-res{
+    padding-top: 0em;
+    padding-left: .5em;
+}

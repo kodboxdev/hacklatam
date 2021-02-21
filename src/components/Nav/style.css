@@ -1,0 +1,52 @@
+.nav-bar-d{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    padding-left: 2em;
+    background-color: #252525;
+}
+.icono{
+    height: 90px;
+}
+
+.icono-menu{
+    height: 4vh;
+    padding-right: 1em;
+    margin-left: 2em;
+}
+
+.icono-pequeño{
+    height: 4vh;
+    margin-left: 1em;
+}
+.icono-pequeño-user{
+    height: 7vh;
+    margin-left: 1em;
+    border-radius: 23em;
+}
+.barra-busqueda{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 3em;
+    padding: 1em 2em;
+    border-style: none;
+    justify-content: center;
+    margin-left: 15vw;
+}
+
+.puntaje{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    color: white;
+
+}
+
+.puntaje img{
+    height: 4vh;
+    width: 2vw;
+}

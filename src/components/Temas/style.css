@@ -1,0 +1,8 @@
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    position: fixed;
+    top: 100px;
+    right: 25px;
+}

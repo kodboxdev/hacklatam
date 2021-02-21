@@ -1,0 +1,27 @@
+.tarjeta{
+    background-color: white;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: .5em;
+}
+
+.tema{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.temas{
+    margin-right: 4em;
+}
+.temas h6{
+    margin-left: 1em;
+}
